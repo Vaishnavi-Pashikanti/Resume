@@ -1,0 +1,94 @@
+body {
+  background: #f4f6fb;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 48px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 36px 44px 32px 44px;
+}
+
+h1 {
+  text-align: center;
+  color: #22223b;
+  margin-bottom: 36px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: 600;
+  color: #3a3a40;
+  text-align: left;
+}
+
+input[type="file"] {
+  margin-bottom: 24px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 22px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background: #f8fafc;
+  transition: border 0.2s;
+}
+
+input:focus, textarea:focus {
+  border: 1.5px solid #1976d2;
+  outline: none;
+  background: #fff;
+}
+
+textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 11px 22px;
+  border-radius: 6px;
+  margin-right: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button:hover, button:focus {
+  background: #1565c0;
+}
+
+div {
+  margin-bottom: 22px;
+}
+
+@media (max-width: 700px) {
+  .App {
+    max-width: 98vw;
+    padding: 18px 6vw 18px 6vw;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+}
